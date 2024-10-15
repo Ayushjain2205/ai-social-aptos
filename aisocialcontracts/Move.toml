@@ -1,0 +1,15 @@
+[package]
+name = "aisocial_token"
+version = "1.0.0"
+authors = ["Ayush Jain"]
+
+[addresses]
+aisocial_token = "0x378a73e8e1b6af20dcec970863f6386eaa4b815915b07759f7b91592b9efec09"
+
+[dev-addresses]
+aisocial_token = "0x378a73e8e1b6af20dcec970863f6386eaa4b815915b07759f7b91592b9efec09"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+[dev-dependencies]
